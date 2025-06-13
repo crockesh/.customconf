@@ -39,6 +39,7 @@ update_files() {
         configs=`find . -mindepth 1 -maxdepth 1 -type d`
         for c in $configs; do
             directory=${2%/}/${c#./}
+
             log "   removing : rm -rf $directory"
 
             if [[ $dry_run == "0" ]]; then
@@ -46,10 +47,16 @@ update_files() {
             fi
 
             log "   copying env: cp $c $2"
+            
             if [[ $dry_run == "0" ]]; then
                 cp -r ./$c $2
             fi
+
         done
+
+        log "reloading hyprland"
+
+        hyprctl reload
     )
     popd &> /dev/null
 }

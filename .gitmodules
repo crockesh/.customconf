@@ -1,6 +1,3 @@
-[submodule "personal/.config/nvim"]
-	path = personal/.config/nvim
-	url = https://github.com/crockesh/nvim.git
-[submodule "work/.config/nvim"]
-	path = work/.config/nvim
+[submodule "shared/.config/nvim"]
+	path = shared/.config/nvim
 	url = https://github.com/crockesh/nvim.git

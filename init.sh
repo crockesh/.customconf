@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 dry_run="0"
+shared_dir=$DEV_ENV/shared
 
 if [ -z "$XDG_CONFIG_HOME" ]; then
     echo "no default config dir"
@@ -54,11 +55,12 @@ update_files() {
 
         done
 
-        log "reloading hyprland"
-
-        hyprctl reload
     )
     popd &> /dev/null
 }
 
+update_files $shared_dir/.config $XDG_CONFIG_HOME
 update_files $configdir/.config $XDG_CONFIG_HOME
+
+log "reloading hyprland"
+hyprctl reload

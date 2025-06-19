@@ -1,6 +1,6 @@
 theme = rose-pine
-font-family = GohuFont 14 Nerd Font Mono
-font-size = 14
+font-family = CommitMono
+font-size = 16
 
 background-opacity = 0.8
 background-blur = true

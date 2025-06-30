@@ -10,4 +10,4 @@ window-inherit-working-directory = true
 auto-update = check
 auto-update-channel = tip
 
-#custom-shader = /home/kesh/Downloads/cursor_smear_fade.glsl
+custom-shader = /home/kesh/Downloads/cursor_smear_fade.glsl

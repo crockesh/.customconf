@@ -202,7 +202,7 @@
     },
     "tray": {
 	"icon-size": 20,
-	"spacing": 4,
+	"spacing": 4
 	},
 	"bluetooth": {
 	"format": "",
@@ -212,7 +212,7 @@
 	"tooltip-format-connected": "{device_enumerate}",
 	"tooltip-format-enumerate-connected": " {device_alias} 󰂄{device_battery_percentage}%",
 	"tooltip": true,
-	"on-click": "blueberry",
+	"on-click": "blueberry"
 },
 "backlight": {
 	"interval": 2,
@@ -238,7 +238,7 @@
 	"on-update": "",
 	"on-scroll-up": "brightnessctl s +5%",
 	"on-scroll-down": "brightnessctl s 5%-",
-	"smooth-scrolling-threshold": 1,
+	"smooth-scrolling-threshold": 1
 },
 "mpris": {
 	"interval": 10,
@@ -259,15 +259,15 @@
 		"mopidy": "",
 		"mpv": "󰐹",
 		"spotify": "",
-		"vlc": "󰕼",
+		"vlc": "󰕼"
 	},
 	"status-icons": {
 		"paused": "󰐎",
 		"playing": "",
-		"stopped": "",
+		"stopped": ""
 	},
 	// "ignored-players": ["firefox"]
-	"max-length": 30,
+	"max-length": 30
 }
 
 }

@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+paru -S --needed --noconfirm rofi-wayland ghostty-git ghostty-shell-integration-git ghostty-terminfo-git waybar hyprpaper

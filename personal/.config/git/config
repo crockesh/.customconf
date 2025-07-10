@@ -1,7 +1,7 @@
 [user]
     name = Kesh
     email = crocodile.kesh@gmail.com
-    signingkey = E0A575923BE3105E
+    signingkey = CD5291FA7A8A437B 
 
 [commit]
     gpgSign = true

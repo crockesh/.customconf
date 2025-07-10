@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+paru -S --needed --noconfirm otf-font-awesome adobe-source-code-pro-fonts noto-fonts-emoji
+paru -S --needed --noconfirm ttf-droid ttf-fira-code ttf-fantasque-nerd ttf-jetbrains-mono
+paru -S --needed --noconfirm ttf-jetbrains-mono-nerd ttf-victor-mono noto-fonts
+paru -S --needed --noconfirm otf-commit-mono-nerd ttf-nerd-fonts-symbols ttf-nerd-fonts-symbols-mono

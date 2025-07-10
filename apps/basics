@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
 
 paru -S --needed --noconfirm librewolf-bin git spotify-launcher vesktop zoom gimp neovim-git wl-clipboard
+paru -S --needed --noconfirm cava diff-so-fancy
+paru -S --needed --noconfirm bluez bluez-utils blueman

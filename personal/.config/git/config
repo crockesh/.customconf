@@ -75,3 +75,8 @@
 # URL shortcuts
 [url "git@github.com:"]
     insteadOf = "gh:"
+
+[bash]
+    showInformativeStatus = true
+    showUntrackedFiles = true
+    showDirtyState = true
